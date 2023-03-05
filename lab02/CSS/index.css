@@ -1,0 +1,62 @@
+.wrapper{
+	width: 100%;
+	height: 1000px;
+	background-color: yellow;
+}
+.header{
+	width: 100%;
+	height: 250px;
+	background-color: green;
+}
+.header .logo{
+	width: 25%;
+	height: 250px;
+	float: left;
+}
+
+.header .banner{
+	width: 75%;
+	height: 250px;
+	float: left;
+}
+
+.image{
+	width: 100%;
+	height: 100%;
+	
+}
+.menu{
+	width: 100%;
+	height: 50px;
+	background-color: violet;
+}
+.menu ul{
+	margin: 0px;
+	padding: 0px;
+	height: 50px;
+	list-style-type: none;
+	
+}
+.menu ul li{
+	width: 20%;
+	float: left;
+}
+.menu ul li a{
+	text-align: center;
+	color: 16px 5px;
+	text-decoration: none;
+	display: block;
+	background-color: white;
+	padding: 16px 5px;
+	border-radius: 50px 0px 50px 0px;
+	transition: background-color 5s;
+	
+}
+.menu ul li a:hover{
+	
+	color: yellow;
+	text-decoration: none;
+	background-color:blue;
+	border-radius: 50px 0px 50px 0px;
+	
+}
